@@ -1,0 +1,6 @@
+flask
+pyjwt
+flask_sqlalchemy
+requests
+flask-cors
+python-dotenv

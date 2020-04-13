@@ -1,0 +1,27 @@
+version: '3'
+
+
+
+services:
+
+  web:
+
+    build: web
+
+    depends_on:
+      - jwt
+    ports:
+
+      - "5000:5000"
+
+
+
+
+  jwt:
+
+    build: jwt
+    ports:
+
+      - "5001:5000"
+
+

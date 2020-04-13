@@ -1,0 +1,7 @@
+flask
+pyjwt
+flask_sqlalchemy
+requests
+six
+authlib
+python-dotenv
